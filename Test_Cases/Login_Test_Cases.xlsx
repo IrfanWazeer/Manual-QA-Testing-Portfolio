@@ -1,0 +1,8 @@
+# Manual Test Cases
+
+| ID  | Feature         | Test Scenario                         | Steps | Expected Result             | Status |
+|-----|------------------|----------------------------------------|-------|------------------------------|--------|
+| TC1 | Login           | Verify valid login                    | 1. Go to login<br>2. Enter valid credentials<br>3. Click Login | Dashboard should load        | ✅     |
+| TC2 | Login           | Invalid credentials                   | Enter wrong password         | Error message should appear  | ✅     |
+| TC3 | Cart            | Add product to cart                   | Select product > Click add   | Product should appear in cart| ✅     |
+| TC4 | Checkout        | Checkout with empty cart              | Click checkout without item  | Error message should show    | ✅     |
